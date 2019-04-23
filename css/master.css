@@ -1,0 +1,74 @@
+body
+{
+  padding: rem;
+}
+.cinema-body
+{
+  background-color: #F2F2F2;
+}
+.header
+{
+  background-color: #D9D9D9;
+}
+.logo
+{
+  max-width: 12rem ;
+}
+.lista
+{
+  margin-top: 7rem;
+}
+.cuerpo
+{
+  padding: 5% !important;
+}
+.navbar
+{
+  background-color: #A6A6A6;
+  color:
+}
+.lead
+{
+  text-align: justify;
+}
+.imagen1
+{
+  max-width: 30rem;
+  box-shadow: -1px 4px 36px 3px rgba(0,0,0,0.75);
+}
+.imagen2
+{
+  max-width: 33rem;
+  box-shadow: -1px 4px 36px 3px rgba(0,0,0,0.75);
+}
+
+.titulo
+{
+  vertical-align: text-top;
+}
+.comentario
+{
+  max-width: 10rem;
+}
+#comentario
+{
+  margin-top: 1rem;
+}
+.texto
+{
+  text-align: justify;
+}
+@media (max-width:750px) {
+  .logo
+  {
+    margin-left: 17.8rem;
+  }
+  .lista
+    {
+      margin-left: 12rem;
+    }
+  .imagen1
+  {
+    align-items: center;
+  }
+}
