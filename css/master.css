@@ -12,7 +12,9 @@ body
 }
 .logo
 {
-  max-width: 12rem ;
+  min-width: 10rem ;
+  margin-left: 2rem;
+  padding: 1.5rem 0 1.5rem 0;
 }
 .lista
 {
@@ -33,7 +35,8 @@ body
 }
 .imagen1
 {
-  max-width: 30rem;
+  min-height: 23rem;
+  max-width: 32rem;
   box-shadow: -1px 4px 36px 3px rgba(0,0,0,0.75);
 }
 .imagen2
@@ -41,7 +44,10 @@ body
   max-width: 33rem;
   box-shadow: -1px 4px 36px 3px rgba(0,0,0,0.75);
 }
-
+.lupa
+{
+  max-width: 2rem;
+}
 .titulo
 {
   vertical-align: text-top;
@@ -58,6 +64,11 @@ body
 {
   text-align: justify;
 }
+.alinear
+{
+  align-items: center;
+}
+
 @media (max-width:750px) {
   .logo
   {
@@ -67,8 +78,14 @@ body
     {
       margin-left: 12rem;
     }
-  .imagen1
+  .center
   {
-    align-items: center;
+  text-align: center;
+  }
+  .comentario
+  {
+    margin-top: 1rem; 
+    min-height: 9rem;
+    max-width: 8rem;
   }
 }
