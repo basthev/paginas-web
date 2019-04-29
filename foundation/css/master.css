@@ -1,0 +1,56 @@
+.fondo
+{
+  background:#FFF6E8 url("../imagenes/fondo.jpg") no-repeat center center fixed ;
+
+}
+.titulo
+{
+  font-size: 2rem;
+  color: white;
+}
+.texto1
+{
+  text-align: right;
+  color: white;
+  font-size: 1rem;
+}
+.boton
+{
+  min-height: 5rem;
+}
+.imagenes
+{
+  width: 8rem;
+}
+.barranavegacion
+{
+  padding: 1rem;
+  border-radius: 20px;
+  border: #E8D7C8 2px solid;
+  background-color: #E8DFC8;
+}
+.lista
+{
+  list-style: none;
+}
+.center
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cuerpo
+{
+  background-color: #FFE7DB;
+  border-radius: 2px;
+  text-align: justify;
+}
+.imagen
+{
+  height: 42rem;
+width: 40rem;}
+.margen
+{
+  margin-top: 1.5rem;
+  margin-right: 8.5rem;
+}
