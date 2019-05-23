@@ -27,7 +27,7 @@
   padding: 1rem;
   border-radius: 20px;
   border: #E8D7C8 2px solid;
-  background-color: #E8DFC8;
+  background-color: #D68A6D;
 }
 .lista
 {
@@ -41,7 +41,7 @@
 }
 .cuerpo
 {
-  background-color: #FFE7DB;
+  background-color: #D6A86D;
   border-radius: 2px;
   text-align: justify;
 }
@@ -52,5 +52,23 @@ width: 40rem;}
 .margen
 {
   margin-top: 1.5rem;
-  margin-right: 8.5rem;
+  margin-right: 8.2rem;
+}
+.perfil
+{
+  background: white;
+  width: 6rem;
+  padding: 0.2rem;
+  border: black 1px solid;
+}
+.contorno
+{
+  border: black 2px solid;
+  border-radius: 4rem;
+  padding: 1rem;
+}
+
+.vertical
+{
+  margin-top: 2rem;
 }

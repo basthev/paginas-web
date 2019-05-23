@@ -1,0 +1,98 @@
+
+.fondob
+{
+  background: url(../imagenes/maldivas1.jpg) no-repeat center center fixed;
+}
+.img
+{
+  width: 9rem;
+}
+.alinear
+{
+  margin-left: 2rem;
+  font-size: 1.55rem;
+  }
+.img2
+{
+  width: 4rem;
+}
+.background2
+{
+  background: white;
+}
+.justify
+{
+  text-align: justify;
+}
+.redondear
+{
+  border-radius: 4rem;
+}
+.color
+{
+  background-color: #5FB6D9;
+}
+.contenido
+{
+  width: 50rem;
+  margin: 1rem;
+}
+.contenido2
+{
+  width: 24rem;
+  margin: 1rem;
+}
+.comentario
+{
+  width: 50rem;
+  margin: 1rem;
+}
+.input-field input:focus + label
+{
+   color: white !important;
+}
+.row .input-field input:focus
+{
+       border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important
+}
+     @media (max-width: 600px) {
+       .alinear
+       {
+         margin-left: 2rem;
+         font-size: 1.3rem;
+         position: relative;
+         top: 2rem;
+       }
+       .boton
+       {
+         width: 8rem;
+
+       }
+       .pequeño
+       {
+         width: 100% !important;
+       }
+       .contenido
+       {
+         width: 100%;
+       }
+       .contenido2
+       {
+         width: 100%;
+       }
+       .comentario
+       {
+         width: 100%;
+       }
+       .imagenpequeña
+       {
+         padding: 0.5rem !important;
+         height: 15rem !important;
+
+           }
+      .none
+      {
+        display:  block;
+      }
+     }
