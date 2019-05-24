@@ -12,7 +12,7 @@
   <body class="fondo">
     <!-- NOTE: comienzo del haeder -->
     <header>
-      <div class="row">
+      <div class="row fondo2 show-for-large">
         <div class="columns large-4">
           <h1 class="titulo">Cocinando con sabor</h1>
           <div class="row align-right">
@@ -21,14 +21,12 @@
             </div>
         </div>
         </div>
-      </div>
     </header>
 <!-- NOTE: final del header -->
-    <hr>
     <!-- NOTE: comienzo del cuerpo -->
-    <div class="row">
+    <div class="row fondo2 ">
       <!-- NOTE: comienzo de la barra de navegacion -->
-        <div class="columns large-4 barranavegacion">
+        <div class="columns large-4 barranavegacion show-for-large">
             <div class="input-group ">
               <input type="text" class="input-group-field " placeholder="Buscar">
               <div class="input-group-button">
@@ -43,36 +41,36 @@
         <h4 class="alert">favoritos:</h4>
           <div class="row">
             <div class="columns large-6">
-              <img src="imagenes/albondigas.jpg" class="imagenes" alt="">
+              <img src="imagenes/albondigas.jpg" class="imagenes thumbnail" alt="">
             </div>
             <div class="columns large-6">
-              <img src="imagenes/carbonara.jpg" alt="" class="imagenes">
-            </div>
-          </div>
-          <div class="row">
-            <div class="columns large-6">
-              <img src="imagenes/benedict.jpg" class="imagenes" alt="">
-            </div>
-            <div class="columns large-6">
-              <img src="imagenes/lomo.jpg" alt="" class="imagenes">
+              <img src="imagenes/carbonara.jpg" alt="" class="imagenes thumbnail">
             </div>
           </div>
           <div class="row">
             <div class="columns large-6">
-              <img src="imagenes/tonkatsu.jpg" class="imagenes" alt="">
+              <img src="imagenes/benedict.jpg" class="imagenes thumbnail" alt="">
             </div>
             <div class="columns large-6">
-              <img src="imagenes/pechuga.jpg" alt="" class="imagenes">
+              <img src="imagenes/lomo.jpg" alt="" class="imagenes thumbnail">
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns large-6 ">
+              <img src="imagenes/tonkatsu.jpg" class="imagenes thumbnail" alt="">
+            </div>
+            <div class="columns large-6">
+              <img src="imagenes/pechuga.jpg" alt="" class="imagenes thumbnail">
             </div>
           </div>
           <div class="row ">
             <h4 class="center">Historial:</h4>
             <div class="columns large-12">
               <ul class="lista">
-                <li><a>Salsa de piña</a></li>
-                <li><a>Salsa carbonara</a></li>
-                <li><a>ensalada cesar</a></li>
-                <li><a>Lomo en salsal de piña</a></li>
+                <li class="lista2"><a>Salsa de piña</a></li>
+                <li class="lista2"><a>Salsa carbonara</a></li>
+                <li class="lista2"><a>ensalada cesar</a></li>
+                <li class="lista2"><a>Lomo en salsal de piña</a></li>
               </ul>
             </div>
           </div>
@@ -82,95 +80,106 @@
           <section>
             <div class="columns large-12">
               <dl class="">
-                <dt>Salsa bechamel en casa</dt>
-                <dd>viernes 04/04/2019</dd>
+                <dt><h3>Salsa bechamel en casa</h3></dt>
+                <dd style="color:white">viernes 04/04/2019</dd>
               </dl>
-              <img src="imagenes/bechamel.jpg" alt="" class="imagen">
+              <img src="imagenes/bechamel.jpg" alt="" class="imagen thumbnail">
             </div>
             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <hr>
-            <div class="row">
-              <div class=" columns large-3">
-                <img src="imagenes/comentario.jpg" alt="">
-              </div>
-                <div class=" columns large-9">
-                  <textarea name="name" rows="4" cols="10"></textarea>
+            <div class="row ">
+                <div class=" columns large-12">
+                  <h5>Danos tu opinion:</h2>
+                  <textarea name="name" rows="4" cols="13"></textarea>
+                  <button type="button" class="float-right alert button" name="button">Enviar</button>
                 </div>
             </div>
-            <div class="row contorno">
-              <div class="columns large-3">
-                <img src="imagenes/chef.svg" class="perfil" alt="">
+            <div class="media-object contorno">
+              <div class="media-object-section">
+                <div class="thumbnail">
+                  <img src="imagenes/chef.svg" class="perfil">
+                </div>
               </div>
-              <div class="columns large-9">
-                <p class="text-center vertical">Me encanto la receta</p>
+              <div class=" media-object-section align-middle ">
+                <p class="comentario"> <strong>Jose31:</strong>Lo intentare en casa </p>
               </div>
-            </div>
-            <div class="row contorno">
-              <div class="columns large-3">
-                <img src="imagenes/chef1.jpg" class="perfil" alt="">
-              </div>
-              <div class="columns large-9">
-                <p class="text-center vertical">Me encanto la receta</p>
-              </div>
-            </div>
-            <div class="row contorno">
-              <div class="columns large-3">
-                <img src="imagenes/chef2.jpg" class="perfil" alt="">
-              </div>
-              <div class="columns large-9">
-                <p class="text-center vertical">Me encanto la receta</p>
+          </div>
+          <div class="media-object contorno">
+            <div class="media-object-section">
+              <div class="thumbnail">
+                <img src="imagenes/chef1.jpg" class="perfil">
               </div>
             </div>
-            </section>
+            <div class=" media-object-section align-middle ">
+              <p class="comentario"> <strong>Jorge22:</strong>Siempre preparo la crema bechamel </p>
+            </div>
         </div>
+        <div class="media-object contorno">
+          <div class="media-object-section">
+            <div class="thumbnail">
+              <img src="imagenes/chef2.jpg" class="perfil">
+            </div>
+          </div>
+          <div class=" media-object-section align-middle ">
+            <p class="comentario"> <strong>Samuel56:</strong> Pareciera facil pero si te descuidas puede salir mal.</p>
+          </div>
+        </div>
+            </section>
         </div>
         <div class="row margen">
           <div class="columns large-7 large-offset-5 aling-rigth cuerpo">
             <section>
               <div class="columns large-12">
                 <dl class="">
-                  <dt>hallaca</dt>
-                  <dd>viernes 04/04/2019</dd>
+                  <dt><h3>Hallaca</h3></dt>
+                  <dd style="color:white">viernes 04/04/2019</dd>
                 </dl>
-                <img src="imagenes/hallaca.jpg" alt="" class="imagen">
+                <img src="imagenes/hallaca.jpg" alt="" class="imagen thumbnail">
               </div>
               <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <hr>
-              <div class="row">
-                <div class=" columns large-3">
-                  <img src="imagenes/comentario.jpg" alt="">
-                </div>
-                  <div class=" columns large-9">
-                    <textarea name="name" rows="4" cols="10"></textarea>
+              <div class="row ">
+                  <div class=" columns large-12">
+                    <h5>Danos tu opinion:</h2>
+                    <textarea name="name" rows="4" cols="13"></textarea>
+                    <button type="button" class="float-right alert button" name="button">Enviar</button>
                   </div>
-              </div>  
-              <div class="row contorno">
-                <div class="columns large-3">
-                  <img src="imagenes/chef.svg" class="perfil" alt="">
+              </div>
+              <div class="media-object contorno">
+                <div class="media-object-section">
+                  <div class="thumbnail">
+                    <img src="imagenes/chef.svg" class="perfil">
+                  </div>
                 </div>
-                <div class="columns large-9">
-                  <p class="text-center vertical">Me encanto la receta</p>
+                <div class=" media-object-section align-middle ">
+                  <p class="comentario"> <strong>Jose31:</strong>Lo intentare en casa </p>
+                </div>
+            </div>
+            <div class="media-object contorno">
+              <div class="media-object-section">
+                <div class="thumbnail">
+                  <img src="imagenes/chef1.jpg" class="perfil">
                 </div>
               </div>
-              <div class="row contorno">
-                <div class="columns large-3">
-                  <img src="imagenes/chef1.jpg" class="perfil" alt="">
-                </div>
-                <div class="columns large-9">
-                  <p class="text-center vertical">Me encanto la receta</p>
-                </div>
+              <div class=" media-object-section align-middle ">
+                <p class="comentario"> <strong>Jorge22:</strong>Siempre preparo la crema bechamel </p>
               </div>
-              <div class="row contorno">
-                <div class="columns large-3">
-                  <img src="imagenes/chef2.jpg" class="perfil" alt="">
-                </div>
-                <div class="columns large-9">
-                  <p class="text-center vertical">Me encanto la receta</p>
-                </div>
+          </div>
+          <div class="media-object contorno">
+            <div class="media-object-section">
+              <div class="thumbnail">
+                <img src="imagenes/chef2.jpg" class="perfil">
               </div>
+            </div>
+            <div class=" media-object-section align-middle ">
+              <p class="comentario"> <strong>Samuel56:</strong> Pareciera facil pero si te descuidas puede salir mal.</p>
+            </div>
+          </div>
               </section>
           </div>
         </div>
+        </div>
+            </div>
             </div>
 
 
